@@ -1,0 +1,33 @@
+required:
+HEK
+http://hce.halomaps.org/index.cfm?fid=411
+
+HEK+ (to start without crashing on windows 7: rightclick HEKPlus.exe -> Properties -> Compatibility Tab -> Disable desktop composition
+http://hce.halomaps.org/index.cfm?fid=2289
+
+Aether
+http://hce.halomaps.org/index.cfm?fid=4312
+
+3ds Max 2012 32 Bit (64 Bit is missing some import/export option)
+http://www.autodesk.com/education/free-software/3ds-max
+
+
+Start HEK+.
+Open the map in HEK+.
+Select all entries in the explorer window.
+Right click on them -> Extract to:
+Extract to Folder: C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\tags\levels\test\mapname
+Generate Tag List: C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\tags\mapname.txt
+
+Settings -> Control Panel -> Regional and Language Options -> In Format Tab set English (United States).
+Start Aether
+New Project -> Select C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\tags\levels\test\mapname\mapname.scenario
+Save to C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\tags\levels\test\mapname\mapname.aeth
+Export -> Select Bitmap Export: All
+Set default language back
+Settings -> Control Panel -> Regional and Language Options -> In Format Tab set previous value.
+
+Start 3ds Max.
+Import -> C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\mapname\mapname.obj
+Select Mesh -> Select planes by material id -> delete all light material planes
+Selec
