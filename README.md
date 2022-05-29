@@ -8,7 +8,7 @@ Further this client is only one of three components:
 3. Flash client running in the browser of a spectator.
  
 
-The client displays game information from a replay file or livestream including:
+The client displays elementary game information from a replay file or livestream including:
  - Animated player movement in the 3D game world such as
    - the paths taken by the players
    - their head/camera orientations
@@ -20,8 +20,18 @@ The client supports
  - a first person camera for each player 
  - a free roaming spectator controlled camera with the same controls as the built-in `debug_camera` from the Halo game.
  - pausing
- - instantaneous seeking to every moment in the game
+ - instantaneous seeking to every moment in the game (scene is updated while dragging on the seekbar)
 
 There is further documentation in German:
  - [Projekt.pdf](Projekt.pdf)
  - [Praesentation.pdf](Praesentation.pdf)
+ 
+### Screenshots
+
+Only very elementary information is displayed. This means there are no weapons or particle effects. There is not even lighting:
+
+In-game screenshot from the map _Rat Race_
+![](screenshots/player.png)
+
+Screenshot from the Flash client at roughly the same position on _Rat Race_
+![](screenshots/spectator.png)
